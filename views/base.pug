@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">   
+    title Dental Site
+    block scripts
+    block style 
+  body
+    nav#navbar 
+      div#logo
+        img(src="/static/pics/logo.jpg", alt="")
+      div#navItems
+        ul 
+          li #[a(href='/') Home]
+          li #[a(href='/') About] 
+          li #[a(href='/') Services] 
+          li #[a(href='/') Class Info] 
+          li #[a(href='/contact') Contact]    
+    block content
+    
+    block foot
+        section#foot
+    footer.footer-distributed
+      .footer-left
+        h3 Company
+          span logo
+        p.footer-links
+          a.link-1(href="#") Home
+          a(href="#") Blog
+          a(href="#") Pricing
+          a(href="#") About
+          a(href="#") Faq
+          a(href="#") Contact
+        p.footer-company-name Company Name © 2015
+      .footer-center
+        div
+          i.fa.fa-map-marker
+          p
+            span 444 S. Cedros Ave
+            | Solana Beach, California
+        div
+          i.fa.fa-phone
+          p +1.555.555.5555
+        div
+          i.fa.fa-envelope
+          p
+            a(href="mailto:support@company.com") support@company.com
+      .footer-right
+        p.footer-company-about
+          span About the company
+          | Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        div#icons 
+          img(src="static/pics/fb.jpg", alt="")
+          img(src="static/pics/insta.jpg", alt="")
+          img(src="static/pics/pintrest.png", alt="")
+          img(src="static/pics/whatsapp.png", alt="")
+          img(src="static/pics/twitter.png", alt="")

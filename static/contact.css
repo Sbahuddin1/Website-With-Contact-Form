@@ -1,0 +1,99 @@
+/* PREVIEW OF CONTACT */
+#contact1{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#a1{
+    margin-top: 70px;
+    width: 40%;
+}
+#a1 h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+#a1 p{
+    font-size: 1.07rem;
+}
+#a2{
+    display: flex;
+    align-items: center;
+}
+#a2 img{   
+    height: 60vh;
+}
+#a1 a{
+    display: block;
+    width: 120px;
+    margin-top: 10px;
+    color:black;
+    transition: .20s;
+
+}
+#a1 a:hover{
+    margin-top: 10px;
+    color: blue;
+}
+#form{
+    padding: 50px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 40px;
+}
+/* CONTACT FORM */
+#form h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 20px;
+}
+#form p{
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 15px;
+    color: rgb(64, 64, 64);
+    font-size: large;
+}
+input,textarea{
+    
+    font-size: large;
+    color: rgb(142, 138, 138);
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid rgb(214, 212, 212);
+    outline: none;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    border:none;
+    width: 120px;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: auto;
+    transition: .30s;
+}
+button:hover{
+    background-color: orange; 
+    color: black; 
+} 
+button:active{
+    color: white;
+    background-color: rgb(225, 150, 10); 
+}

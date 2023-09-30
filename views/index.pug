@@ -1,0 +1,111 @@
+doctype html
+html
+  head
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      div#logo
+        img(src="/static/pics/logo.jpg", alt="")
+      div#navItems
+        ul 
+          li #[a(href='/') Home]
+          li #[a(href='/') About] 
+          li #[a(href='/') Services] 
+          li #[a(href='/') Class Info] 
+          li #[a(href='/') Contact]    
+
+    section#intro  
+      div#a1
+        h1 We will help you <br> achieve your goals!
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. A recusandae tenetur autem. Reiciendis id incidunt libero explicabo earum nobis blanditiis. Molestiae incidunt sapiente mollitia voluptates commodi obcaecati delectus vero voluptate.
+
+      div#a2
+        img(src="/static/pics/intro.jpg", alt="")
+    
+          
+    section#mission  
+      h1 Our Mission
+      div#container
+        div#b1
+          img(src="/static/pics/mission1.jpg", alt="")
+          h3 Heading Forward
+          p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum sunt rerum saepe facilis perferendis debitis.
+
+        div#b2
+          img(src="/static/pics/mission2.jpg", alt="")
+          h3 Staying Firm
+          p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum sunt rerum saepe facilis perferendis debitis.
+
+
+        div#b3
+          img(src="/static/pics/mission3.jpg", alt="")
+          h3 Doing Impossible
+          p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum sunt rerum saepe facilis perferendis debitis.
+
+    section#work  
+      div#c1
+        img(src="/static/pics/work.png", alt="")
+
+      div#c2
+        h1 Your teeth will be <br> brighter than moonligt!
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. A recusandae tenetur autem. Reiciendis id incidunt libero explicabo earum nobis blanditiis. Molestiae incidunt sapiente mollitia voluptates commodi obcaecati delectus vero voluptate.
+        a(href="/") Learn more >
+
+    h1#spn Brands we have worked with    
+    section#sponsors
+      
+      img(src="/static/pics/brand (1).png", alt="")
+      img(src="/static/pics/brand (3).png", alt="")
+      img(src="/static/pics/brand (4).png", alt="")
+      img(src="/static/pics/brand (5).png", alt="")
+      img(src="/static/pics/brand (6).png", alt="")
+      img(src="/static/pics/brand (7).png", alt="")
+
+    section#foot
+    footer.footer-distributed
+      .footer-left
+        h3 Company
+          span logo
+        p.footer-links
+          a.link-1(href="#") Home
+          a(href="#") Blog
+          a(href="#") Pricing
+          a(href="#") About
+          a(href="#") Faq
+          a(href="#") Contact
+        p.footer-company-name Company Name © 2015
+      .footer-center
+        div
+          i.fa.fa-map-marker
+          p
+            span 444 S. Cedros Ave
+            | Solana Beach, California
+        div
+          i.fa.fa-phone
+          p +1.555.555.5555
+        div
+          i.fa.fa-envelope
+          p
+            a(href="mailto:support@company.com") support@company.com
+      .footer-right
+        p.footer-company-about
+          span About the company
+          | Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        div#icons 
+          img(src="static/pics/fb.jpg", alt="")
+          img(src="static/pics/insta.jpg", alt="")
+          img(src="static/pics/pintrest.png", alt="")
+          img(src="static/pics/whatsapp.png", alt="")
+          img(src="static/pics/twitter.png", alt="")
+  
+
+
+        
+
+          
+    script
+      include ../static/script.js
