@@ -10,8 +10,6 @@ This repository contains a basic website template with a contact form that is in
 - 
 - <img src="https://github.com/Sbahuddin1/Website-With-Contact-Form/blob/main/static/pics/contact-web%20(2).png" alt="Website Screenshot" width="80%">
 
-
-
 - **Customizable:** Easily tailor the template to match your brand's identity.
 
 ## Usage
